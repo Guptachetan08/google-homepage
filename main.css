@@ -1,0 +1,172 @@
+.whole_page{
+    height: 100%;
+    width: 100%;
+    display: inline-flexbox;
+}
+.header{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+}
+.nav{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-right: 0%;
+    
+}
+#nav_list{
+    display: inline-flex;
+}
+.ul{
+    list-style: none;
+    display: inline-flex;
+    color: black;
+    text-decoration: none;
+}
+#Gmail{
+
+    margin: 0 10px 10px 10px;
+    display: inline-block;
+    text-decoration-color: black;
+    text-decoration: none;
+   
+    
+}
+#Images{
+    margin: 0 10px 10px 10px;
+    display: list-item;
+    text-decoration-color: black;
+    text-decoration: none;
+}
+#svg{
+    height: 27px;
+    width: auto;
+    margin: 0 5px 0 5px;
+}
+.svg1{
+    opacity: 1;
+    margin: 0 10px 0 10px;
+    margin-top: 5px;
+    height: 27px;
+    width: 27px;
+}
+.profile{
+    height: auto;
+    width: auto;
+    margin: 0 10px 0 10px;
+}
+#profile_image{
+    border-radius: 50%;
+}
+.main{
+    height: auto;
+    width: 100%;
+}
+.center_image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+    text-align: center;  
+}
+#google_logo{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.icon_and_bar{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 548px;
+    height: 48px;
+    border: 1px solid #dfe1e5;
+    margin-top: 20px;
+    border-radius: 25px 25px 25px 25px;
+
+}
+.icon_search{
+    height: 27px;
+    width: 27px;
+    opacity: 0.5;
+    margin: auto auto auto 10px;
+    display: inline-flex;
+
+}
+.searchbar{
+    height: 42px;
+    width: 487px;
+    margin-left: 0;
+    margin-right: 0;
+    color: transparent;
+    border-color: transparent;
+}
+
+.icon_and_bar:hover{
+    box-shadow: 0 1px 10px black;
+}
+.mic_logo{
+    height: 27px;
+    width: 27px;
+    margin: auto;
+    display: block;
+
+}
+.list_under_bar{
+    display: flex;
+}
+.ul2{
+    list-style: none;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.google_search{
+    margin: auto 15px 15px 15px;
+    border: 1px solid transparent;
+    background-color: rgba(245, 239, 239, 0.822);
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+}
+.im_feeling_lucky{
+    margin: 15px 15px 15px auto;
+    border: 1px solid transparent;
+    background-color: rgba(245, 239, 239, 0.822);
+    padding: 5px 20px 5px 20px;
+}
+.p{
+   margin: auto auto auto 10px;
+   position: relative;
+    bottom: 50px;
+    width: 100%;
+}
+.footer{
+    display: inline-flex;
+    margin: auto 0 0 0;
+    height: 50px;
+    width: 100%;
+    background-color: #dfe1e5;
+    position: absolute;
+    bottom: 0;
+}
+.footer1{
+    margin: auto auto auto 10px;
+    
+}
+
+.footer2{
+    margin: auto 10px auto auto;
+  
+}
+.footer_element{
+    color: black;
+    margin: 0 10px 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid transparent;
+    background-color: #dfe1e5;
+}
